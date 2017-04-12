@@ -22,7 +22,9 @@ This microservices will run on the port: 9000
 
 Health check URL:http://localhost:9000/health
 Welcome Page URL: http://localhost:9000
-API Documentation (Using Swagger 2.0) URL: http://localhost:9000/swagger-ui.html
+API Documentation (Using Swagger 2.0) URL: 
+http://localhost:9000/v2/api-docs
+http://localhost:9000/swagger-ui.html
 *** Please check postcode-controller : Postcode Controller section****
 
 Spring Beans Info URL: http://localhost:9000/beans
