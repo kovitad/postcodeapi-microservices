@@ -14,7 +14,7 @@ Build:
 
 Run:
 
->java -jar target/microservices-api-postcode-0.0.1-SNAPSHOT.jar
+>java -jar target/postcodeapi-microservices-0.0.1-SNAPSHOT.jar
 
 Note:
 
