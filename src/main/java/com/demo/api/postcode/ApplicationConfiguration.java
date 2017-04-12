@@ -31,7 +31,7 @@ public class ApplicationConfiguration {
 	public Docket api(){
 		return new Docket(DocumentationType.SWAGGER_2)
 				.apiInfo(apiInfo()).select()                       
-                .apis(RequestHandlerSelectors.basePackage("com.demo.postcode.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.demo.api.postcode.controller"))
                 .paths(PathSelectors.ant("/api/**"))
                 .build();
 				
